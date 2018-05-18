@@ -5,3 +5,5 @@
 ### jqueryNicescroll  jquery滚动条插件，可以兼容到IE9,需要高版本的jquery.js文件
 ### images 所有图片
 ### js 所有js文件
+### videojs videojs插件
+### iframe iframe通过postMessage进行通信

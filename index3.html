@@ -9,9 +9,8 @@
 </head>
 
 <body>
-    <video id='myVideo' src="./test.mp4" controls></video>
-    <input type="range">
-
+    <video id='myVideo' style="width:600px;height:400px;" src="./test.mp4" controls></video>
+    
     <script>
         let myVideo = document.getElementById('myVideo');
         myVideo.addEventListener('play', () => {
@@ -25,8 +24,7 @@
         myVideo.onpause = function () {
             console.log('pause');
         };
-
-
     </script>
 </body>
+
 </html>
